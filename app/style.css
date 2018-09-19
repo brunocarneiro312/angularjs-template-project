@@ -1,0 +1,26 @@
+/**
+ * ----------------------------------------
+ * Personalizando componentes do bootstrap3
+ * ----------------------------------------
+ */
+.jumbotron {
+    background: #f3f3f3;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #ddd;
+}
+
+/**
+ * -------------------------------
+ * Componentes da página principal
+ * -------------------------------
+ */
+#header-title {
+    color: rgba(0, 0, 0, .5);
+}
+#links {
+    font-size: 1.4em;
+}
+#main {
+    margin-top: 25px;
+}
