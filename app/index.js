@@ -1,9 +1,10 @@
 // Import das dependências externas
-// import 'jquery';
-
+import 'jquery';
 import 'angular';
+import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
+import 'font-awesome/css/font-awesome.css';
 
 // Import das dependências internas
 import App       from './module/app.module';

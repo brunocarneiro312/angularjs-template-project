@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="header-title" class="jumbotron container">
-        AngularJS + CSS3 + Webpack4
-    </h1>
+    <div id="header-title" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                AngularJS + CSS3 + Webpack4
+                <div class="pull-right">
+                    <i class="fa fa-github fa-fw fa-lg"></i>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="links" class="container">
-        <a href="#!">Início</a> |
-        <a href="#!components">Componentes</a>
+        <a href="#!"><i class="fa fa-home fa-fw"></i> Início</a> |
+        <a href="#!components"><i class="fa fa-cogs fa-fw"></i> Componentes</a>
     </div>
     <div id="main" class="container">
         <div ng-view></div>

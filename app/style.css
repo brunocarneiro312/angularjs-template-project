@@ -4,10 +4,7 @@
  * ----------------------------------------
  */
 .jumbotron {
-    background: #f3f3f3;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 1px #ddd;
+
 }
 
 /**
@@ -16,10 +13,18 @@
  * -------------------------------
  */
 #header-title {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .4);
+    background: #f3f3f3;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #ddd;
+    padding: 25px;
+    font-size: 3em;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 #links {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 #main {
     margin-top: 25px;
